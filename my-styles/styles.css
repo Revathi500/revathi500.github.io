@@ -1,0 +1,64 @@
+.container
+{
+border:1px solid black;
+}
+.row
+{
+	border:1px solid red;
+}
+h1
+{
+  color:#33FF4F;
+  font-style:italic;
+}
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+{
+	border:1px solid gray;
+}
+#header
+{
+	background:orange;
+	text-align:center;
+}
+#menu
+{
+background:yellow;	
+padding:3px 0px;
+}
+#menu ul
+{
+list-style:none;
+margin:0;	
+padding:0;
+}
+#menu ul li{
+	display:inline-block;
+	float:left;
+	border-right:5px;
+}
+a{
+	text-decoration:none;
+	padding:0 28px;
+}
+#content
+{
+background:pink;	
+}
+#sidebar
+{
+background:pink;	
+}
+#sidebar1
+{
+background:pink;	
+}
+#contact
+{
+  background:#476AE2;
+  color:yellow;
+}
+#footer
+{
+	background:orange;
+	text-align:center;
+}
