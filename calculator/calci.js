@@ -27,9 +27,15 @@ for(item of buttons){
             screenValue = "";
             screen.value = screenValue;
         }
-        else if(buttonText == '='){
+       else if(buttonText == '='){
+          console.log(screenValue);
+          console.log(eval(screenValue));
+          if(Number.isInteger(eval(screenValue))){
+            console.log('line 35');
             screen.value = eval(screenValue);
-            
+          }else {
+            screen.value = parseFloat(eval(screenValue)).toFixed(3);
+          }            
         }
 
         else {
