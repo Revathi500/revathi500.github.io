@@ -27,6 +27,10 @@ for(item of buttons){
             screenValue = "";
             screen.value = screenValue;
         }
+        else if(buttonText == '←'){
+            screenValue = screenValue.substr(0,screenValue.length-1);
+            screen.value = screenValue;
+        }
        else if(buttonText == '='){
           console.log(screenValue);
           console.log(eval(screenValue));
