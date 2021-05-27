@@ -37,7 +37,7 @@ for(item of buttons){
           if(Number.isInteger(eval(screenValue))){
             screen.value = eval(screenValue);
           }else {
-            screen.value = parseFloat(eval(screenValue)).toFixed(3);
+            screen.value = parseFloat(eval(screenValue));
           }            
         }
 
